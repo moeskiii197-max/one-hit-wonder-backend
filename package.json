@@ -1,13 +1,14 @@
 {
   "name": "one-hit-wonder-backend",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "main": "server.js",
+  "type": "commonjs",
   "scripts": {
     "start": "node server.js"
   },
   "dependencies": {
-    "express": "^4.18.2",
     "cors": "^2.8.5",
-    "dotenv": "^16.3.1"
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2"
   }
 }
